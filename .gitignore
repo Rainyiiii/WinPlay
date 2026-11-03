@@ -1,0 +1,80 @@
+# Dependencies and downloaded development tools
+/node_modules/
+/tools/
+/resources/node/
+
+# Generated build and release files
+/build/
+/dist/
+/coverage/
+/README.preview.html
+*.tsbuildinfo
+*.log
+*.blockmap
+
+# Generated validation output
+/docs/validation/
+
+# Authentication material and private keys
+/resources/authentication/*
+!/resources/authentication/README.md
+*.pk8
+*.p7b
+*.pem
+*.key
+*.p12
+*.pfx
+*.dpapi
+
+# Local credentials, settings and pairing records
+.env
+.env.*
+!.env.example
+settings.json
+identity.json
+pairings.json
+diagnostics.json
+
+# Crash dumps, temporary files and editor/OS metadata
+*.dmp
+*.tmp
+*.bak
+/.codex/
+/.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local agent instructions
+AGENTS.md
+
+# Local assistant/editor state
+AGENTS.local.md
+CLAUDE.local.md
+/.claude/
+/.cursor/
+/.vscode/
+
+# Local connection data and private configuration
+/.npmrc
+/.netrc
+/_netrc
+/secrets/
+/credentials/
+/userData/
+*.local.json
+
+# User reports, screenshots, network captures and performance traces
+/debug/
+/diagnostics/
+/logs/
+WinPlay-*-diagnostics*.json
+codex-clipboard-*
+屏幕截图*.png
+屏幕截图*.jpg
+*.pcap
+*.pcapng
+*.etl
+*.nettrace
+*.heapsnapshot
+*.cpuprofile
